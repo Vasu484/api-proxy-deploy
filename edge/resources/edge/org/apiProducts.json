@@ -1,0 +1,29 @@
+[
+    {
+        "name": "deployProduct",
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [
+            {
+                "name": "description",
+                "value": "deployProduct"
+            },
+            {
+                "name": "access",
+                "value": "private"
+            }
+        ],
+        "description": "deployProduct",
+        "displayName": "deployProduct",
+        "environments": [
+            "${env}"
+        ],
+        "proxies": [
+            "api-proxy-deploy"
+        ],
+        "quota": "10000",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "month",
+        "scopes": []
+    } 
+]

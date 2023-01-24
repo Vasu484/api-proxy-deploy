@@ -1,0 +1,12 @@
+{
+	"domains": {
+		"dev": "https://${org}-${env}.apigee.net"
+	},
+	"api-proxy-deploy": {
+		"basepath": "/v1/deploy",
+		"product":"deployProduct",
+		"app":"deployApp",
+		"org":"${org}",
+		"env":"${env}"
+	}
+}
